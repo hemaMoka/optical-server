@@ -1,12 +1,115 @@
 {
-  "signup": [
+  "users": [
     {
       "id": 1,
       "name": "ibrahim mohamed",
       "email": "ibrahimmohamed@gmail.com",
       "phone": "01284954021",
-      "password": "12345",
-      "class_id":1
+      "password": "12345"
+    }
+  ],
+
+  "devices": [
+    {
+      "id": 1,
+      "name": "PlayStation 5",
+      "type": "PS5",
+      "pricePerDay": 300,
+      "status": "available",
+      "image": "https://m.media-amazon.com/images/I/51oJ4+CGr4L._AC_SX679_.jpg"
+    },
+    {
+      "id": 2,
+      "name": "PlayStation 4 Pro",
+      "type": "PS4",
+      "pricePerDay": 200,
+      "status": "available",
+      "image": "https://m.media-amazon.com/images/I/51oJ4+CGr4L._AC_SX679_.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Xbox Series X",
+      "type": "Xbox",
+      "pricePerDay": 280,
+      "status": "rented",
+      "image": "https://m.media-amazon.com/images/I/51oJ4+CGr4L._AC_SX679_.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Xbox Series S",
+      "type": "Xbox",
+      "pricePerDay": 220,
+      "status": "available",
+      "image": "https://m.media-amazon.com/images/I/51oJ4+CGr4L._AC_SX679_.jpg"
+    },
+    {
+      "id": 5,
+      "name": "PS5 Digital",
+      "type": "PS5",
+      "pricePerDay": 280,
+      "status": "available",
+      "image": "https://m.media-amazon.com/images/I/51oJ4+CGr4L._AC_SX679_.jpg"
+    },
+    {
+      "id": 6,
+      "name": "PS4 Slim",
+      "type": "PS4",
+      "pricePerDay": 180,
+      "status": "rented",
+      "image": "https://m.media-amazon.com/images/I/51oJ4+CGr4L._AC_SX679_.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Xbox One X",
+      "type": "Xbox",
+      "pricePerDay": 170,
+      "status": "available",
+      "image": "https://m.media-amazon.com/images/I/51oJ4+CGr4L._AC_SX679_.jpg"
+    },
+    {
+      "id": 8,
+      "name": "PlayStation 5 Bundle",
+      "type": "PS5",
+      "pricePerDay": 350,
+      "status": "available",
+      "image": "https://m.media-amazon.com/images/I/51oJ4+CGr4L._AC_SX679_.jpg"
+    },
+    {
+      "id": 9,
+      "name": "PS4 Standard",
+      "type": "PS4",
+      "pricePerDay": 150,
+      "status": "available",
+      "image": "https://m.media-amazon.com/images/I/51oJ4+CGr4L._AC_SX679_.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Xbox Series X Premium",
+      "type": "Xbox",
+      "pricePerDay": 320,
+      "status": "rented",
+      "image": "https://m.media-amazon.com/images/I/51oJ4+CGr4L._AC_SX679_.jpg"
+    }
+  ],
+
+  "bookings": [
+    {
+      "id": 1,
+      "userId": 1,
+      "deviceId": 3,
+      "startDate": "2026-03-01",
+      "endDate": "2026-03-02",
+      "totalPrice": 280,
+      "status": "confirmed"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "deviceId": 6,
+      "startDate": "2026-03-05",
+      "endDate": "2026-03-06",
+      "totalPrice": 180,
+      "status": "pending"
     }
   ]
 }
