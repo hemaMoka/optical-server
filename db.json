@@ -1,12 +1,14 @@
 {
   "users": [
-    {
-      "id": 1,
-      "name": "ibrahim mohamed",
-      "email": "ibrahimmohamed@gmail.com",
-      "phone": "01284954021",
-      "password": "12345"
-    }
+  {
+    "fullName": "ibrahim",
+    "email": "ibrahimfe2o0o@gmail.com",
+    "phone": "01284954021",
+    "password": "Hema123!",
+    "confirmPassword": "Hema123!",
+    "terms": true,
+    "id": 1
+  }
   ],
 
   "devices": [
